@@ -1,7 +1,5 @@
-// script AOS by saiful
 AOS.init();
 
-// script about img by saiful
 const gambar = [
   './assets/images/about/toko.jpg',
   './assets/images/about/toko1.jpg',
@@ -16,7 +14,6 @@ function autogambar () {
 
 setInterval(autogambar, 1500);
 
-// script filter product by saiful
 $(document).ready(function () {
   var $grid = $('.product-container').isotope({
     itemSelector: '.product-item',
@@ -36,7 +33,6 @@ $(document).ready(function () {
   });
 });
 
-// script navbar by saiful
 // Saya matikan karena ini untuk click toggle navbar, jika saya jalan bila sudah memilih toggle langsung tertutup dan juga hovernya gak kelihatan
 // $(".navbar-nav .nav-item .nav-link").on("click", function () {
 //   $(".navbar-collapse").collapse("hide");
@@ -57,7 +53,6 @@ $(window).scroll(function () {
   }
 });
 
-// script text typing effect by saiful
 const typingText = document.getElementById("typing-text");
 const staticText = "Selamat Datang di ";
 const textArray = ["Toko Parfumku"];
@@ -107,13 +102,11 @@ document.addEventListener("DOMContentLoaded", function () {
   setTimeout(type, 1000);
 });
 
-// script floating bottom right icon by saiful
 document.getElementById("open-modal").addEventListener("click", function () {
   var myModal = new bootstrap.Modal(document.getElementById("myModal"));
   myModal.show();
 });
 
-//################################# script Update Contact Us  by Rajendra  #################################
 
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.querySelector('form');
