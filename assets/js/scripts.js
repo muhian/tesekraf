@@ -1,8 +1,8 @@
 AOS.init();
 
 const gambar = [
-  './assets/images/about/toko.jpg',
-  './assets/images/about/toko1.jpg',
+  'https://images.unsplash.com/photo-1541643600914-78b084683601?w=600',
+  'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=600',
 ];
 
 function autogambar () {
@@ -55,7 +55,7 @@ $(window).scroll(function () {
 
 const typingText = document.getElementById("typing-text");
 const staticText = "Selamat Datang di ";
-const textArray = ["Toko Parfumku"];
+const textArray = ["Toko Harums"];
 let textIndex = 0;
 let charIndex = 0;
 
@@ -207,3 +207,5 @@ var swiper = new Swiper(".slide-content", {
     },
   },
 });
+
+
